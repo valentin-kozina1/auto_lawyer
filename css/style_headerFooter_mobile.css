@@ -1,0 +1,175 @@
+.desktop {
+    display: none;
+}
+
+.mobile {
+    display: block;
+}
+
+header {
+    width: 320px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    background-color: var(--c-white);
+}
+
+.header-menu {
+    margin-left: 3%;
+}
+
+.header-logo {
+  margin-right: 22%;
+}
+
+.header-search {
+    margin-right: 6%;
+}
+
+footer {
+    width: 320px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 13px;
+    line-height: 18px;
+    background-color: var(--c-footer);
+    color: var(--c-footerColor);
+    letter-spacing: 1px;  /*растянул*/
+}
+
+.footer-logo {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.footer-block-first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 13px;
+    font-size: 9px;
+    margin-top: 20px;
+    margin-left: 10px;
+    order: 4;
+}
+
+.footer-block-first-title {
+    line-height: 13px;
+    font-size: 9px;
+    margin-bottom: 0px;
+}
+
+.footer-block-second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    order: 1;
+}
+
+.footer-block-second-text {
+    font-weight: var(--font-weight-main);
+}
+
+.footer-block-second-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;  /*в макете 13*/ 
+}
+
+.footer-block-third {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    order: 2;
+}
+
+.footer-block-third-text {
+    text-decoration: none;
+    color: var(--c-footerColor);
+}
+
+.footer-block-third-title {
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;  /*в макете 13*/
+}
+
+.footer-block-fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    order: 3;
+}
+
+.footer-block-fourth-title {
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;    /*в макете 13*/
+}
+
+.footer-block-fourth-text {
+    text-decoration: none;
+    color: var(--c-footerColor);
+}
+
+.footer-block-fourth-net {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 260px;
+    margin-top: 5px;
+}
+
+.footer-block-payment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 13px;
+    font-size: 9px;
+    margin-top: 10px;
+    margin-left: 10px;
+    order: 5;
+}
+
+.footer-block-payment-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 260px;
+    align-items: center;
+}
+
+.visa {
+    width: 35px;
+    height: 10px;
+}
+
+.master {
+    width: 10px;
+    height: 20px;
+}
+
+.peace {
+    width: 35px;
+    height: 10px;
+}
+
+.mbank {
+    width: 110px;
+    height: 20px;
+}
