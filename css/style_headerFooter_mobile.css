@@ -23,6 +23,10 @@ header {
     margin-left: 3%;
 }
 
+.header-menu>path {
+    fill: var(--c-yellow);
+}
+
 .header-logo {
   margin-right: 22%;
 }

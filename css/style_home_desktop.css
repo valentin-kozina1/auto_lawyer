@@ -9,7 +9,7 @@
 }
 
 .home-front-selects {
-    width: 76%;
+    width: 77%;
     height: 60px;
     display: flex;
     flex-direction: row;
@@ -22,7 +22,19 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.left {
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.middle {
     justify-content: center;
+}
+
+.right {
+    justify-content: flex-end;
 }
 
 .home-front-selects-items-img {

@@ -8,52 +8,68 @@
 	<link rel="stylesheet" type="text/css" href="css/style_headerFooter_desktop.css">
 	<link rel="stylesheet" type="text/css" href="css/style_home_mobile.css">
 	<link rel="stylesheet" type="text/css" href="css/style_home_desktop.css">
+	<link rel="stylesheet" type="text/css" href="css/style_modals.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<img class="header-menu mobile" src="image/header/menu_yellow.png">
-		<img class="header-logo" src="image/header/logo.png">
-		<div class="header-geo desktop">
-			<img class="header-geo-image" src="image/header/geo_yellow.png">    <!-- покрасить иконку из макета -->
-			<select class="header-geo-city"> <!-- доработать select -->
-				<option>Москва</option>
-				<option>Санкт-Петербург</option>
-				<option>Сочи</option>
-				<option>Казань</option>
-				<option>Екатеринбург</option>
-				<option>Новосибирск</option>
-				<option>Краснодар</option>
-			</select>
-		</div>
-		<div class="header-call desktop">
-			<span class="header-call-text">Звоните бесплатно</span>
-			<span class="header-call-number">8 800 201 32 36</span>
-		</div>
-		
-		<span class="header-kontakts desktop">Контакты</span>
-		<img class="header-search" src="image/header/search.png">
+		<svg class="header-menu mobile" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+			<path d="M0 3.8C0 3.35817 0.358172 3 0.8 3H19.2C19.6418 3 20 3.35817 20 3.8C20 4.24183 19.6418 4.6 19.2 4.6H0.799999C0.358172 4.6 0 4.24183 0 3.8Z" fill="black"/>
+			<path d="M0 10C0 9.55817 0.358172 9.2 0.8 9.2H19.2C19.6418 9.2 20 9.55817 20 10C20 10.4418 19.6418 10.8 19.2 10.8H0.799999C0.358172 10.8 0 10.4418 0 10Z" fill="black"/>
+			<path d="M0 16.2C0 15.7582 0.358172 15.4 0.8 15.4H19.2C19.6418 15.4 20 15.7582 20 16.2C20 16.6418 19.6418 17 19.2 17H0.799999C0.358172 17 0 16.6418 0 16.2Z" fill="black"/>
+		</svg>
+		<div class="header-main">
+			<div class="header-left">
+				<img class="header-logo" src="image/header/logo.svg">
+				<div class="desktop">
+					<div class="header-geo">
+						<svg class="header-geo-image" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<path d="M10.0001 0C6.08401 0 2.91675 3.13 2.91675 7C2.91675 12.25 10.0001 20 10.0001 20C10.0001 20 17.0834 12.25 17.0834 7C17.0834 3.13 13.9162 0 10.0001 0ZM10.0001 9.5C8.60365 9.5 7.47032 8.38 7.47032 7C7.47032 5.62 8.60365 4.5 10.0001 4.5C11.3965 4.5 12.5298 5.62 12.5298 7C12.5298 8.38 11.3965 9.5 10.0001 9.5Z" fill="black"/>
+						</svg>
+						<span class="header-geo-city">Москва</span>
+						<img src="image/header/arrow.svg">
+					</div>
+				</div>	
+			</div>
+			<div class="header-right">
+				<div class="header-call">
+					<span class="header-call-text">Звоните бесплатно</span>
+					<span class="header-call-number">8 800 201 32 36</span>
+				</div>
+				<div class="header-kontakts-container">
+					<div class="header-kontakts-container-text">
+						<span>Контакты</span>
+					</div>	
+					<div class="header-kontakts-container-img nonactive">
+						<img src="image/header/search.svg">
+					</div>
+				</div>			
+			</div>	
+		</div>		
 	</header>
 
 	<section class="home-front">
 		<div class="home-front-selects desktop">
-			<div class="home-front-selects-items">
-				<img class="home-front-selects-items-img" src="image/home/Vector1.png">
+			<div class="home-front-selects-items left">
+				<img class="home-front-selects-items-img" src="image/home/icon1.svg">
 				<select class="home-front-selects-items-item">
 					<option>Вернуть права</option>
 					<option>Другие автоспоры</option>
 					<option>Спор по ДТП</option>
 				</select>
 			</div>
-			<div class="home-front-selects-items">
-				<img src="image/home/icon.png">
+			<div class="home-front-selects-items middle">
+				<img class="home-front-selects-items-img"  src="image/home/icon2.svg">
 				<select class="home-front-selects-items-item">
 					<option>Спор по ДТП</option>
 					<option>Вернуть права</option>
 					<option>Другие автоспоры</option>
 				</select>	
 			</div>
-			<div class="home-front-selects-items">
-				<img src="image/home/icon2.png">
+			<div class="home-front-selects-items right">
+				<img class="home-front-selects-items-img"  src="image/home/icon3.svg">
 				<select class="home-front-selects-items-item">
 					<option>Другие автоспоры</option>
 					<option>Спор по ДТП</option>
@@ -331,7 +347,7 @@
 		<div class="home-return-container">
 			<h1 class="home-return-title">Как мы возвращаем права</h1>
 			<div class="home-return-container-numbers desktop">
-				<div class="dottedLine"></div>
+				<div class="dottedLine"></div>  <!-- сделать flexwrap -->
 				<div class="circle-return">1</div>
 				<div class="solidLine"></div>
 				<div class="circle-return">2</div>
@@ -537,6 +553,37 @@
 			</div>
 		</div>
 	</footer>
+
+	<!-- модалки -->
+
+	<div class="modal modal-menu nonactive">
+		<div class="modal-menu-container">
+			<div class="modal-menu-header">
+				<img src="image/header/logo.png">
+				<img src="image/header/cancel.png">
+			</div>
+			<div class="modal-menu-item">
+				<div class="block">
+					<img src="image/modals/geo.png">
+					<span class="modal-menu-item-city active">Москва</span>
+					<span class="modal-menu-item-city nonactive">Санкт-Петербург</span>
+					<span class="modal-menu-item-city nonactive">Сочи</span>
+					<span class="modal-menu-item-city nonactive">Казань</span>
+					<span class="modal-menu-item-city nonactive">Екатеринбург</span>
+					<span class="modal-menu-item-city nonactive">Новосибирск</span>
+					<span class="modal-menu-item-city nonactive">Краснодар</span>	
+				</div>			
+				<img src="image/modals/arrow.png">
+			</div>			
+			<div class="modal-menu-item">
+				<div class="block">
+					<img class="home-front-selects-items-img" src="image/home/Vector1.png">
+					<span class="">Спор по ДТП</span>	
+				</div>
+				<img src="image/modals/arrow.png">
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
