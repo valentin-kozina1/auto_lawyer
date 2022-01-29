@@ -9,8 +9,9 @@
 }
 
 .home-front-selects {
-    width: 77%;
+    width: 75%;
     height: 60px;
+    margin-left: -1%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,6 +23,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-right: 1px solid var(--c-line);
+}
+
+.home-front-selects-items:last-child {
+    border-right: none;
 }
 
 .left {
@@ -93,15 +99,17 @@
 }
 
 .home-front-form-input>input {
-    width: 25%;
+    width: 310px;
     height: 45px;
-    margin-right: 1%;
+    margin-right: 20px;
+    margin-bottom: 0;
 }
 
 button {
     margin-top: 0;
-    margin-left: 1.6%;
+    margin-left: 30px;
     height: 45px;
+    border: none;
 }
 
 .home-front-form-person {
