@@ -25,7 +25,7 @@ header {
 
 .header-left {
     min-width: 260px;
-    width: 22%;
+    width: 25%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,7 +60,7 @@ header {
 .header-right {
     height: 100%;
     min-width: 475px;
-    width: 39%;
+    width: 42%;
 }
 
 .header-right-container {
@@ -116,13 +116,19 @@ header {
 footer {
     width: 100%;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     height: 450px;
+}
+
+.footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1140px;
+    min-width: 980px;
 }
 
 .footer-block-first {
     order: 1;
-    margin-left: 12%;
     margin-top: 40px;
     width: 242px;
     font-size: 11px;
@@ -139,15 +145,30 @@ footer {
     margin-left: 3%;
     width: 320px;
     font-size: 15px;
-    line-height: 23px;
+    line-height: 26px;
 }
 
 .footer-block-second-title, 
 .footer-block-third-title,
 .footer-block-fourth-title {
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-weight: 700;
+}
+
+.footer-block-second-text:nth-of-type(2) {
+    letter-spacing: -0.3px;
+}
+
+.footer-block-second-text:nth-of-type(3) {
+    letter-spacing: -0.4px;
+}
+
+.footer-block-second-text:nth-of-type(6) {
+    letter-spacing: -0.8px;
 }
 
 .footer-block-third {
@@ -156,7 +177,7 @@ footer {
     margin-top: 40px;
     margin-left: 2%;
     font-size: 15px;
-    line-height: 23px;
+    line-height: 26px;
 }
 
 .footer-block-fourth {
@@ -164,7 +185,6 @@ footer {
     width: 240px;
     margin-top: 40px;
     margin-left: 2%;
-    margin-right: 12%;
     font-size: 15px;
     line-height: 23px;
 }
@@ -173,10 +193,14 @@ footer {
     margin-top: 25px;
     font-size: 11px;
     line-height: 15px;
+    margin-left: 0;
+    width: 100%;
 }
 
 .footer-block-payment-icons {
     margin-top: 25px;
+    margin-left: 0;
+    width: 100%;
 }
 
 .footer-block-fourth-net {

@@ -95,9 +95,10 @@
 button {
     margin-top: 15px;
     width: 150px;
-    height: 42px;
+    height: 45px;
     background: var(--c-button);
     border-radius: 6px;
+    border: none;
 }
 
 button>span {
@@ -183,6 +184,10 @@ button>span {
 
 .home-opportunities-paragraphs-item-text>p {
     width: 105px;
+    overflow: hidden;
+    width: 94%;
+    height: 70px;
+    margin: 0;
 }
 
 .home-opportunities-paragraphs-item>img {
@@ -208,13 +213,13 @@ button>span {
     flex-direction: column;
 }
 
-.home-about-us-button {
+.home-about-us-button-nonactive {
     height: 50px;
     width: 100%;
     background: var(--c-white);
 }
 
-.home-about-us-button1 {
+.home-about-us-button-active {
     height: 50px;
     width: 100%;
     background-color: var(--c-activeButtton);
@@ -338,6 +343,7 @@ button>span {
     width: 235px;
     height: 40px; 
     border: 1px solid var(--c-white);
+    color: var(--c-grey);
 }
 
 .home-about-us-item-second-person {
@@ -347,6 +353,10 @@ button>span {
     text-align: center;
     color: var(--c-grey);
     margin-top: 10px;
+}
+
+.home-about-us-item-second-person>p>a {
+    color: var(--c-line);
 }
 
 .home-about-us-item-second>button {
@@ -495,6 +505,7 @@ button>span {
     width: 110px;
     font-size: 15px;
     line-height: 20px;
+    text-align: center;
 }
 
 /*-----------*/
@@ -632,11 +643,11 @@ button>span {
 }
 
 .home-otherService-images-items-item2 {
-    width: 40px;
-    height: 30px;
     position: absolute;
-    top: 45px;
-    left: 125px;
+    top: 30%;
+    left: 40%;
+    font-size: 40px;
+    color: var(--c-red);
 }
 
 .home-otherService-images-items-title {
