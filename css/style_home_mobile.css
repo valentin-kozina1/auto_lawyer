@@ -85,6 +85,7 @@
 .home-front-form-input>input {
     width: 300px;
     height: 40px;
+    margin-bottom: 10px;
     background: var(--c-inputColor);
     border: 1px solid var(--c-line);
     color: var(--c-line);
@@ -107,6 +108,8 @@ button>span {
     text-align: center;
     color: var(--c-yellow);
 }
+
+
 
 .home-front-form-person {
     width: 300px;
