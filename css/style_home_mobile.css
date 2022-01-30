@@ -228,6 +228,13 @@ button>span {
     background-color: var(--c-activeButtton);
 }
 
+textarea::placeholder, input::placeholder {
+    font-family: var(--font-main);
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--c-grey);
+}
+
 .home-about-us:last-child {
     margin-bottom: 45px;
 }
@@ -328,6 +335,7 @@ button>span {
     height: 220px;
 }
 
+.home-about-us-item-second-inputs>textarea,
 .home-about-us-item-second-inputs>input {
     width: 235px;
     height: 60px;

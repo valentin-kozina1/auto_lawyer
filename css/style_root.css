@@ -13,7 +13,7 @@
     --c-footerColor: #E4F1F3;
     --c-inputColor: rgba(255, 255, 255, 0.7);
     --c-button: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), #FFFFFF;
-  
+    --c-lineMadal: rgba(0, 0, 0, 0.06);
     /* font*/ 
     --font-main: Open Sans;
     --font-weight-main: 400;
