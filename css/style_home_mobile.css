@@ -761,6 +761,10 @@ textarea::placeholder, input::placeholder {
     margin-right: 15px;
 }
 
+/*.home-chances-arrow>path {
+    fill: var(--c-yellow);
+}*/
+
 /*----------*/
 
 .home-more {
