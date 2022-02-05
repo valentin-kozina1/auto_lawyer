@@ -6,6 +6,10 @@
     display: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 .home-front {
     width: 100%;
     display: flex;
@@ -760,10 +764,6 @@ textarea::placeholder, input::placeholder {
     justify-content: flex-end;
     margin-right: 15px;
 }
-
-/*.home-chances-arrow>path {
-    fill: var(--c-yellow);
-}*/
 
 /*----------*/
 

@@ -9,11 +9,14 @@
     --c-shadow: #bfbaba;
     --c-grey: rgba(0, 0, 0, 0.35);
     --c-line: rgba(0, 0, 0, 0.15);
+    --c-fontColor: rgba(0, 0, 0, 0.55);;
     --c-footer: #597073;
     --c-footerColor: #E4F1F3;
     --c-inputColor: rgba(255, 255, 255, 0.7);
     --c-button: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), #FFFFFF;
     --c-lineMadal: rgba(0, 0, 0, 0.06);
+    --c-shadow: rgba(197, 185, 39, 0.2);
+    
     /* font*/ 
     --font-main: Open Sans;
     --font-weight-main: 400;
@@ -31,9 +34,9 @@ body {
     margin: 0;
   } 
 
-img {
+/*img {
     max-width: 100%;
-}
+}*/
 
 .active {
     display: block;
