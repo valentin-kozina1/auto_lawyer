@@ -1,14 +1,17 @@
 :root {
     /* background */
     --c-white: #FFFFFF;
+    --c-whiteBlock: #FFFEF6;
     --c-yellow: #FFED00;
     --c-red: #DD4B39;
-    --c-lightGrey: #E5E5E5;
-    --c-activeButtton: #EDEBCF;
-    --c-green: #C5B927;
-    --c-shadow: #bfbaba;
     --c-grey: rgba(0, 0, 0, 0.35);
     --c-line: rgba(0, 0, 0, 0.15);
+    --c-lightGrey: #E5E5E5;
+    --c-activeButtton: #F9F7E5;
+    --c-activeButtonBorder: #EDEBCF;
+    --c-nonActiveButtonBorder: rgba(0, 0, 0, 0.08);
+    --c-green: #C5B927;
+    --c-shadow: #bfbaba;    
     --c-fontColor: rgba(0, 0, 0, 0.55);;
     --c-footer: #597073;
     --c-footerColor: #E4F1F3;
@@ -16,7 +19,7 @@
     --c-button: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), #FFFFFF;
     --c-lineMadal: rgba(0, 0, 0, 0.06);
     --c-shadow: rgba(197, 185, 39, 0.2);
-    
+
     /* font*/ 
     --font-main: Open Sans;
     --font-weight-main: 400;

@@ -52,7 +52,6 @@ img {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
 }
 
 .home-front-foto-note-up {
@@ -224,12 +223,14 @@ button>span {
     height: 50px;
     width: 100%;
     background: var(--c-white);
+    border: 1px solid var(--c-nonActiveButtonBorder);
 }
 
 .home-about-us-button-active {
     height: 50px;
     width: 100%;
     background-color: var(--c-activeButtton);
+    border: 1px solid var(--c-activeButtonBorder);
 }
 
 textarea::placeholder, input::placeholder {
@@ -686,7 +687,7 @@ textarea::placeholder, input::placeholder {
     width: 320px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 
 .home-chances-title {
@@ -719,16 +720,19 @@ textarea::placeholder, input::placeholder {
     flex-direction: row;
     margin-left: 10px;
     width: 300px;
+    height: 130px;
     overflow: hidden;   
 }
 
 .home-chances-items-item {
     width: 190px;
-    height: 110px;
+    height: 109px;
     display: flex;
     flex-direction: column;
     margin-right: 10px;
-    background-color: var(--c-white);
+    background-color: var(--c-whiteBlock);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
 }
 
 .home-chances-items-item-active {
@@ -738,7 +742,8 @@ textarea::placeholder, input::placeholder {
     flex-direction: column;
     margin-right: 10px;
     background-color: var(--c-yellow);
-    border-radius: 10px
+    box-shadow: 0px 0px 25px rgba(197, 185, 39, 0.4);
+    border-radius: 10px;
 }
 
 .home-chances-span {

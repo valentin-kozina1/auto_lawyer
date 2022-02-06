@@ -9,7 +9,7 @@
 }
 
 .home-front-selects {
-    width: 75%;
+    width: 61%;
     height: 60px;
     margin-left: -1%;
     display: flex;
@@ -351,13 +351,13 @@
 }
 
 .pagesecond-front-form-input>input {
-    width: 26%;
+    width: 26.5%;
     height: 45px;
     margin-right: 1.7%;
     margin-bottom: 0;
 }
 
-button {
+.button {
     width: 13.9%;
     height: 45px;
     margin-left: 2.6%;

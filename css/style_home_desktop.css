@@ -9,7 +9,7 @@
 }
 
 .home-front-selects {
-    width: 75%;
+    width: 61%;
     height: 60px;
     margin-left: -1%;
     display: flex;
@@ -91,6 +91,11 @@
     position: relative;
 }
 
+.home-front-foto-note-up {
+    bottom: -370px;
+    right: 60px;
+}
+
 .home-front-foto-image {
     height: 540px;
 }
@@ -153,10 +158,10 @@ button {
 
 .home-opportunities {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     background: var(--c-lightGrey);
-    align-items: center;
+    justify-content: center;
 }
 
 .home-opportunities-container {
@@ -590,7 +595,7 @@ textarea::placeholder, input::placeholder {
     width: 61%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     
 }
 
@@ -621,11 +626,12 @@ textarea::placeholder, input::placeholder {
     justify-content: space-between;
     margin-left: 0;
     width: 100%;
+    height: 150px;
 }
 
 .home-chances-items-item {
     width: 19.5%;
-    height: 130px;
+    height: 127px;
     margin-right: 0;
 }
 

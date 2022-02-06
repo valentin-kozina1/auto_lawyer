@@ -242,6 +242,8 @@
     margin-bottom: 15px;
 }
 
+/*---------------*/
+
 .pagesecond-form {
     margin-top: 45px;
     width: 320px;
@@ -267,6 +269,7 @@
 }
 
 .pagesecond-front-form-title-two {
+    font-weight: normal;
     font-size: 18px;
     line-height: 25px;
      color: var(--c-white);
