@@ -152,10 +152,6 @@
 
 /*--------------*/
 
-.pagesecond-practice {
-    overflow: auto;
-}
-
 .pagesecond-practice-container {
     margin-top: 45px;
     display: flex;
@@ -177,13 +173,15 @@
     line-height: 24px;
 }
 
+.pagesecond-practice-items-container {
+    overflow: auto;
+}
+
 .pagesecond-practice-items {
     display: flex;
     flex-direction: row;
-    /*overflow: hidden;*/
     margin-top: 25px;
     width: max-content;
-    /*width: 310px;*/
 }
 
 .pagesecond-practice-item-container {

@@ -164,8 +164,6 @@
 
 /*-----------*/
 
-.pagesecond-practice {
-}
 
 .pagesecond-practice-container {
     margin-top: 60px;
@@ -190,6 +188,10 @@
 .pagesecond-practice-arrows>img {
     width: 48px;
     height: 48px;
+}
+
+.pagesecond-practice-items-container {
+    overflow: unset;
 }
 
 .pagesecond-practice-items {

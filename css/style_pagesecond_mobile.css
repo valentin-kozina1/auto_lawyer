@@ -27,6 +27,9 @@
     margin-top: 25px;
     display: flex;
     flex-direction: column;
+}
+
+.pagesecond-front-main-items-container {
     overflow: auto;
 }
 
@@ -336,10 +339,6 @@ textarea::placeholder, input::placeholder {
 
 /*--------------*/
 
-.pagesecond-practice {
-    overflow: auto;
-}
-
 .pagesecond-practice-container {
     margin-top: 45px;
 }
@@ -355,6 +354,10 @@ textarea::placeholder, input::placeholder {
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
+}
+
+.pagesecond-practice-items-container {
+    overflow: auto;
 }
 
 .pagesecond-practice-items {

@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
 </head>
 <body>
+<div class="container-background">	
 	<header>
 		<svg class="header-menu mobile" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
 			<path d="M0 3.8C0 3.35817 0.358172 3 0.8 3H19.2C19.6418 3 20 3.35817 20 3.8C20 4.24183 19.6418 4.6 19.2 4.6H0.799999C0.358172 4.6 0 4.24183 0 3.8Z" fill="black"/>
@@ -205,10 +206,11 @@
 					</div>
 				</div>				
 				<div class="pagefourth-front-foto-image">
+					<img class="pagefourth-front-foto-image-img" src="../image/pagefourth/front-foto.png">
 					<div class="pagefourth-front-foto-image-text">
 						<span>ЭТО БЕСПЛАТНО</span>
 					</div>
-					<div class="pagefourth-front-foto-image-back"></div>
+					<img class="pagefourth-front-foto-image-back" src="../image/pagefourth/background_desktop.svg">
 				</div>
 				<div class="mobile">
 					<div class="pagefourth-front-foto-stages">
@@ -252,31 +254,33 @@
 				</div>
 				<div class="pagefourth-video-items-down">
 					<h1 class="pagefourth-video-items-up-title">Кому это необходимо</h1>
-					<div class="home-chances-items">
-						<div class="home-chances-items-item">
-							<span class="home-chances-span">12.26</span>
-							<p class="home-chances-p">Отказ от медицинского освидетельствования</p>
-							<img class="home-chances-img" src="../image/home/Arrow2.svg">
-						</div>
-						<div class="home-chances-items-item-active">
-							<span class="home-chances-span">12.8</span>
-							<p class="home-chances-p">Управление в состоянии опьянения</p>
-							<img class="home-chances-img" src="../image/home/Arrow21.svg">
-						</div>
-						<div class="home-chances-items-item">
-							<span class="home-chances-span">12.15.4(5)</span>
-							<p class="home-chances-p">Выезд на встречную полосу</p>
-							<img class="home-chances-img" src="../image/home/Arrow2.svg">
-						</div>
-						<div class="home-chances-items-item">
-							<span class="home-chances-span">12.27</span>
-							<p class="home-chances-p">Скрытие с места ДТП</p>
-							<img class="home-chances-img" src="../image/home/Arrow2.svg">
-						</div>
-						<div class="home-chances-items-item">
-							<span class="home-chances-span">12.2</span>
-							<p class="home-chances-p">Управление без номеров и скрытие номеров</p>
-							<img class="home-chances-img" src="../image/home/Arrow2.svg">
+					<div class="home-chances-container-items">
+						<div class="home-chances-items">
+							<div class="home-chances-items-item">
+								<span class="home-chances-span">12.26</span>
+								<p class="home-chances-p">Отказ от медицинского освидетельствования</p>
+								<img class="home-chances-img" src="../image/home/Arrow2.svg">
+							</div>
+							<div class="home-chances-items-item-active">
+								<span class="home-chances-span">12.8</span>
+								<p class="home-chances-p">Управление в состоянии опьянения</p>
+								<img class="home-chances-img" src="../image/home/Arrow21.svg">
+							</div>
+							<div class="home-chances-items-item">
+								<span class="home-chances-span">12.15.4(5)</span>
+								<p class="home-chances-p">Выезд на встречную полосу</p>
+								<img class="home-chances-img" src="../image/home/Arrow2.svg">
+							</div>
+							<div class="home-chances-items-item">
+								<span class="home-chances-span">12.27</span>
+								<p class="home-chances-p">Скрытие с места ДТП</p>
+								<img class="home-chances-img" src="../image/home/Arrow2.svg">
+							</div>
+							<div class="home-chances-items-item">
+								<span class="home-chances-span">12.2</span>
+								<p class="home-chances-p">Управление без номеров и скрытие номеров</p>
+								<img class="home-chances-img" src="../image/home/Arrow2.svg">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -463,55 +467,56 @@
 				</div>
 			</div>	
 	</footer>
+</div>
 
 	<!-- модалки -->
 	<!-- страница МЕНЮ 1 -->
 	<div class="menu nonactive">
 		<div class="modal menu nonactive">
-		<div class="modal-menu-container">
-			<div class="modal-menu-header">
-				<img src="../image/modals/logo.svg">
-				<img src="../image/modals/cancel.svg">
-			</div>
-			<div class="modal-menu-items">
-				<div class="modal-menu-items-item modal-menu-items-item1">
-					<div>
-						<svg class="modal-menu-items-item-img" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-							<path d="M10.0001 0C6.08401 0 2.91675 3.13 2.91675 7C2.91675 12.25 10.0001 20 10.0001 20C10.0001 20 17.0834 12.25 17.0834 7C17.0834 3.13 13.9162 0 10.0001 0ZM10.0001 9.5C8.60365 9.5 7.47032 8.38 7.47032 7C7.47032 5.62 8.60365 4.5 10.0001 4.5C11.3965 4.5 12.5298 5.62 12.5298 7C12.5298 8.38 11.3965 9.5 10.0001 9.5Z" fill="black"/>
-						</svg>
-						<span class="modal-menu-items-item-text">Москва</span>
+			<div class="modal-menu-container">
+				<div class="modal-menu-header">
+					<img src="../image/modals/logo.svg">
+					<img src="../image/modals/cancel.svg">
+				</div>
+				<div class="modal-menu-items">
+					<div class="modal-menu-items-item modal-menu-items-item1">
+						<div>
+							<svg class="modal-menu-items-item-img" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+								<path d="M10.0001 0C6.08401 0 2.91675 3.13 2.91675 7C2.91675 12.25 10.0001 20 10.0001 20C10.0001 20 17.0834 12.25 17.0834 7C17.0834 3.13 13.9162 0 10.0001 0ZM10.0001 9.5C8.60365 9.5 7.47032 8.38 7.47032 7C7.47032 5.62 8.60365 4.5 10.0001 4.5C11.3965 4.5 12.5298 5.62 12.5298 7C12.5298 8.38 11.3965 9.5 10.0001 9.5Z" fill="black"/>
+							</svg>
+							<span class="modal-menu-items-item-text">Москва</span>
+						</div>
+						<img src="../image/modals/arrow.svg">
 					</div>
-					<img src="../image/modals/arrow.svg">
-				</div>
-				<div class="modal-menu-items-item modal-menu-items-item2">
-					<div class="modal-menu-items-item2-text">
-						<img src="../image/modals/icon1.svg">
-						<span class="modal-menu-items-item-text">Вернуть права</span>
+					<div class="modal-menu-items-item modal-menu-items-item2">
+						<div class="modal-menu-items-item2-text">
+							<img src="../image/modals/icon1.svg">
+							<span class="modal-menu-items-item-text">Вернуть права</span>
+						</div>
+						<img src="../image/modals/arrow2.svg">
 					</div>
-					<img src="../image/modals/arrow2.svg">
-				</div>
-				<div class="modal-menu-items-item modal-menu-items-item2">
-					<div class="modal-menu-items-item2-text">
-						<img src="../image/modals/icon2.svg">
-						<span class="modal-menu-items-item-text">Спор по ДТП</span>
+					<div class="modal-menu-items-item modal-menu-items-item2">
+						<div class="modal-menu-items-item2-text">
+							<img src="../image/modals/icon2.svg">
+							<span class="modal-menu-items-item-text">Спор по ДТП</span>
+						</div>
+						<img src="../image/modals/arrow2.svg">
 					</div>
-					<img src="../image/modals/arrow2.svg">
-				</div>
-				<div class="modal-menu-items-item modal-menu-items-item2">
-					<div class="modal-menu-items-item2-text">
-						<img src="../image/modals/icon3.svg">
-						<span class="modal-menu-items-item-text">Другие автоспоры</span>
+					<div class="modal-menu-items-item modal-menu-items-item2">
+						<div class="modal-menu-items-item2-text">
+							<img src="../image/modals/icon3.svg">
+							<span class="modal-menu-items-item-text">Другие автоспоры</span>
+						</div>
+						<img src="../image/modals/arrow2.svg">
 					</div>
-					<img src="../image/modals/arrow2.svg">
+					<div class="modal-menu-items-kontats">
+						<span class="modal-menu-items-kontats-text">Контакты</span>
+						<span class="modal-menu-items-kontats-text">Звоните бесплатно</span>		
+						<span class="modal-menu-items-kontats-phone">8 800 201-32-36</span>
+					</div>
 				</div>
-				<div class="modal-menu-items-kontats">
-					<span class="modal-menu-items-kontats-text">Контакты</span>
-					<span class="modal-menu-items-kontats-text">Звоните бесплатно</span>		
-					<span class="modal-menu-items-kontats-phone">8 800 201-32-36</span>
-				</div>
-			</div>
-		</div>		
-	</div>	
+			</div>		
+		</div>	
 	</div>
 	
 

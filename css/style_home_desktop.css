@@ -258,14 +258,16 @@
   /*-----------------*/
 
   .home-plus-container {
+    justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 70px;
+    width: 100%;
   }
 
   .home-plus-item {
     width: 32%;
     margin-left: 0;
-    margin-right: 10px;
+    margin-right: 0;
   }
 
   .home-plus-item > h1 {
@@ -275,13 +277,12 @@
   }
 
   .home-plus-item-paragraphs {
-    width: 100%;
+    align-items: center;
   }
 
   .home-plus-item-paragraph {
     display: flex;
     flex-direction: row;
-    width: 100%;
   }
 
   .home-plus-item-paragraph > img {
@@ -295,9 +296,19 @@
     line-height: 20px;
   }
 
+  .home-plus-item-numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
   .home-plus-item-numbers-item > p {
     width: 96%;
     overflow: hidden;
+    margin: 12px 0 24px 0;
+    font-size: 15px;
+    line-height: 20px;
   }
 
   .home-plus-item > span {
@@ -451,6 +462,10 @@
 
   /*----------*/
 
+.home-chances-container-items {
+  overflow: hidden;
+}
+
   .home-chances-container {
     margin-bottom: 40px;
   }
@@ -485,7 +500,7 @@
     flex-direction: column;
     padding: 12px 12px 16px;
     border-radius: 10px;
-    margin-right: 16px;
+    margin-right: 11px;
   }
 
   .home-chances-items-item-active {
@@ -493,7 +508,7 @@
     flex-direction: column;
     padding: 12px 12px 16px;
     border-radius: 10px;
-    margin-right: 16px;
+    margin-right: 11px;
   }
 
   .home-chances-span {

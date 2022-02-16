@@ -122,8 +122,13 @@
 .pagefourth-front-foto-image {
     margin-top: 60px;
     width: 47.9%;
+    max-width: 47.9%;
     height: 460px;
-    background-size: cover;
+}
+
+.pagefourth-front-foto-image-back {
+    top: 217px;
+    right: -287px;
 }
 
 .pagefourth-front-foto-image-item {
