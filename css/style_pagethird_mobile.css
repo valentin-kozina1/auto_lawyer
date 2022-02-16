@@ -7,31 +7,27 @@
 }
 
 .pagethird-front {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} 
+
+}
 
 .pagethird-front-foto {
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    background: var(--c-button);
+     background: url(../image/pagethird/front_foto_desktop.png) no-repeat 76% 0;
+    background-size: cover;
+    padding: 100px 0;
     color: var(--c-white);
-    align-items: center;
 }
 
 .pagethird-front-foto-komment {
-    width: 300px;
     display: flex;
     flex-direction: column;
+    background: var(--c-button);
 }
 
 .pagethird-front-foto-komment-container {
     width: 100%;
     display: flex;
     flex-direction: column;
+    color: var(--c-white);
 }
 
 .pagethird-front-foto-komment-title {
@@ -98,7 +94,6 @@
 /*--------------*/
 
 .pagethird-front-stage {
-    width: 320px;
     display: flex;
     flex-direction: column;
     background: var(--c-yellow);
@@ -106,7 +101,6 @@
 }
 
 .pagethird-front-stage-container {
-    width: 300px;
     display: flex;
     flex-direction: column;
     margin-top: 45px;
@@ -159,17 +153,13 @@
 /*--------------*/
 
 .pagesecond-practice {
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    overflow: auto;
 }
 
 .pagesecond-practice-container {
-    width: 300px;
+    margin-top: 45px;
     display: flex;
     flex-direction: column;
-    margin-top: 45px;
 }
 
 .pagesecond-practice-title-container {
@@ -190,9 +180,10 @@
 .pagesecond-practice-items {
     display: flex;
     flex-direction: row;
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin-top: 25px;
-    width: 310px;
+    width: max-content;
+    /*width: 310px;*/
 }
 
 .pagesecond-practice-item-container {
@@ -224,6 +215,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-self: center;
+    justify-self: center;
 }
 
 .practice-circle {
@@ -243,15 +236,10 @@
 
 .pagesecond-form {
     margin-top: 45px;
-    width: 320px;
     background-color: var(--c-green);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .pagesecond-front-form {
-    width: 300px;
     display: flex;
     flex-direction: column;
 }
@@ -291,9 +279,10 @@
     margin-bottom: 10px;
 }
 
-textarea::placeholder, input::placeholder {
+input[type=text]::placeholder {
     font-size: 13px;
     line-height: 18px;
+    margin-left: 16px;
     color: var(--c-grey);
 }
 
@@ -327,23 +316,12 @@ textarea::placeholder, input::placeholder {
 
 /*-------------------*/
 
-.pagethird-lawn {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .pagethird-lawn-container {
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 45px;
 }
 
 .pagethird-lawn-item {
-    width: 300px;
+    /*width: 300px;*/
     display: flex;
     flex-direction: column;
 }
@@ -365,7 +343,7 @@ textarea::placeholder, input::placeholder {
 }
 
 .pagethird-lawn-stages {
-    width: 300px;
+    /*width: 300px;*/
     margin-top: 24px;
     background: var(--c-white);
     display: flex;
@@ -375,10 +353,8 @@ textarea::placeholder, input::placeholder {
 }
 
 .pagethird-lawn-stages-item {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .pagethird-lawn-stages-button-nonactive {
@@ -390,7 +366,6 @@ textarea::placeholder, input::placeholder {
 
 .pagethird-lawn-stages-button-active {
     height: 64px;
-    width: 100%;
     background-color: var(--c-activeButtton);
     border-radius: 12px;
     border: none;
@@ -409,14 +384,19 @@ textarea::placeholder, input::placeholder {
 
 .pagethird-lawn-stage-title>span {
     margin-left: 10px;
+    width: 230px;
 }
 
 .pagethird-lawn-stage-title>img {
     margin-right: 15px;
 }
 
+.pagethird-lawn-stages-text-container {
+    padding: 0 16px;
+}
+
 .pagethird-lawn-stages-text {
-    width: 268px;
+   /* width: 268px;*/
     background-color: var(--c-white);
     display: flex;
     flex-direction: column;
@@ -434,21 +414,17 @@ textarea::placeholder, input::placeholder {
 /*-------------*/
 
 .pagesecond-consultation {
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 45px;
 }
 
 .pagesecond-consultation-container {
-    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--c-white);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
     border-radius: 16px;
+    margin-bottom: 45px;
 }
 
 .pagesecond-consultation-container>h1 {
@@ -464,7 +440,6 @@ textarea::placeholder, input::placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*background: var(--c-white);*/
     width: 260px;
 }
 
@@ -538,23 +513,15 @@ textarea::placeholder, input::placeholder {
 /*---------------*/
 
 .pagethird-lowerblock {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-     align-items: center;
 }
 
 .pagethird-lowerblock-container {
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 45px;
     margin-bottom: 55px;
 }
 
 .pagethird-lowerblock-title {
-    width: 300px;
+   /* width: 300px;*/
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
@@ -562,7 +529,7 @@ textarea::placeholder, input::placeholder {
 }
 
 .pagethird-lowerblock-items {
-    width: 300px;
+    /*width: 300px;*/
     display: flex;
     flex-direction: column;
     align-items: center;

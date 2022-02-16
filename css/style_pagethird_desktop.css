@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 992px) {
 
 .mobile {
     display: none;
@@ -9,93 +9,63 @@
 }
 
 .home-front-selects {
-    width: 61%;
-    height: 60px;
-    margin-left: -1%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
+    padding: 20px 0;
+  }
 
-.home-front-selects-items {
-    width: 100%;
+  .home-front-selects-items {
     position: relative;
     display: flex;
-    flex-direction: row;
     align-items: center;
     border-right: 1px solid var(--c-line);
-}
+    width: 33%;
+    justify-content: space-around;
+  }
 
-.home-front-selects-items:last-child {
+  .home-front-selects-items:last-child {
     border-right: none;
-}
+  }
 
-.left {
-    justify-content: flex-start;
-    margin-left: 20px;
-}
-
-.middle {
-    justify-content: center;
-}
-
-.right {
-    justify-content: flex-end;
-}
-
-.home-front-selects-items-img {
+  .home-front-selects-items-img {
     width: 30px;
     height: 25px;
-}
+  }
 
-.home-front-selects-items-item {
-    margin-left: 4%;
-    width: 75%;
-    height: 22px;
+  .home-front-selects-items-item {
     background-color: var(--c-lightGrey);
     border: 1px solid var(--c-lightGrey);
     font-weight: 600;
     font-size: 20px;
-    line-height: 27px;
-    overflow: hidden;
-}
+  }
 
-.home-front-selects-items-menu {
+  .home-front-selects-items-menu {
     position: absolute;
-    top: 30px;
+    top: 49px;
     right: 0px;
-    width: 370px;
-    height: 245px;
     background-color: var(--c-yellow);
     z-index: 1;
     display: flex;
     flex-direction: column;
-    padding: 20px 15px 20px 15px;
-}
+    padding: 20px 15px;
+  }
 
-.home-front-selects-items-menu-item {
-    width: 340px;
-    height: 36px;
+  .home-front-selects-items-menu-item {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+    padding: 7px 0;
+  }
 /*------------------*/
 
-.pagethird-front {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} 
-
 .pagethird-front-foto {
-    width: 100%;
-    position: relative;
+     padding: 270px 0;
+    background-position: 0 0;
+     position: relative;
 }
 
 .pagethird-front-foto-image {
@@ -156,12 +126,7 @@
 
 /*--------------*/
 
-.pagethird-front-stage {
-    width: 100%;
-}
-
 .pagethird-front-stage-container {
-    width: 61%;
     margin-top: 60px;
 }
 
@@ -200,11 +165,9 @@
 /*-----------*/
 
 .pagesecond-practice {
-    width: 100%;
 }
 
 .pagesecond-practice-container {
-    width: 61%;
     margin-top: 60px;
 }
 
@@ -232,6 +195,7 @@
 .pagesecond-practice-items {
     margin-top: 40px;
     width: 100%;
+    margin-bottom: 60px;
 }
 
 .pagesecond-practice-item-container {
@@ -253,13 +217,13 @@
 /*--------------------*/
 
 .pagesecond-form {
-    margin-top: 60px;
-    width: 100%;
+    margin-top: 45px;
+    background-color: var(--c-green);
 }
 
 .pagesecond-front-form {
-    width: 61%;
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
 }
 
 .pagesecond-front-form-title {
@@ -318,7 +282,6 @@ textarea::placeholder, input::placeholder {
 
 
 .pagethird-lawn-container {
-    width: 61%;
     margin-top: 60px;
 }
 
@@ -342,13 +305,6 @@ textarea::placeholder, input::placeholder {
     box-sizing: border-box;
     border: 1px solid var(--c-line);
 }
-
-/*.pagethird-lawn-stages-item {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}*/
 
 .pagethird-lawn-stages-button-nonactive {
     height: 56px;
@@ -393,16 +349,11 @@ textarea::placeholder, input::placeholder {
 /*-------------*/
 
 .pagesecond-consultation {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 60px;
 }
 
 .pagesecond-consultation-container {
-    width: 61%;
-    align-items: flex-start;
+    margin-bottom: 60px;
 }
 
 .pagesecond-consultation-container>h1 {
@@ -472,7 +423,6 @@ textarea::placeholder, input::placeholder {
 /*---------------*/
 
 .pagethird-lowerblock-container {
-    width: 61%;
     margin-top: 60px;
     margin-bottom: 66px;
 }
@@ -546,6 +496,7 @@ textarea::placeholder, input::placeholder {
 
 .pagethird-lowerblock-items-item-note>img {
     margin-right: 10px;
+    width: 16px;
 }
 
 }
