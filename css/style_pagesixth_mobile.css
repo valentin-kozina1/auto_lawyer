@@ -205,14 +205,14 @@
 
 /*--------------*/
 
+.home-chances-container-items {
+  overflow: auto;
+}
+
 .home-chances-items {
     display: flex;
     flex-direction: row;
     margin: 20px 0 0 0;
-}
-
-.pagesixth-items {
-    overflow: hidden;
 }
 
 .home-chances-items-item {
@@ -223,6 +223,14 @@
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
     padding: 8px;
     border-radius: 10px;
+}
+
+.home-chances-items-item:nth-child(5) {
+    margin-right: 0;
+}
+
+.home-chances-items-item:nth-child(5)>.home-chances-p {
+    width: 186px;
 }
 
 .home-chances-items-item-active {
@@ -260,6 +268,10 @@
 }
 
 /*------------*/
+
+.pagesecond-front-main-items-container {
+    overflow: auto;
+}
 
 .pagesecond-front-main-items {
     display: flex;

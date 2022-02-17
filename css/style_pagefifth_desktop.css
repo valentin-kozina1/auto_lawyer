@@ -140,6 +140,11 @@
     height: 460px;
 }
 
+.pagefourth-front-foto-image-back {
+    top: 215px;
+    right: -285px;
+}
+
 .pagefourth-front-foto-image-item {
     max-width: 100%;
 }
@@ -209,6 +214,14 @@
     margin-right: 11px;
     padding: 12px 12px 16px;
     border-radius: 10px;
+}
+
+.home-chances-items-item:nth-child(5) {
+    margin-right: 0;
+}
+
+.home-chances-items-item:nth-child(5)>.home-chances-p {
+    width: 186px;
 }
 
 .home-chances-items-item-active {

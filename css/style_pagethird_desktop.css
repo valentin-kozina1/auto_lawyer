@@ -330,6 +330,7 @@ textarea::placeholder, input::placeholder {
 
 .pagethird-lawn-stage-title>span {
     margin-left: 12px;
+    width: 80%;
 }
 
 .pagethird-lawn-stage-title>img {

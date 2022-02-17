@@ -252,11 +252,11 @@
     border-radius: 10px;
 }
 
-.home-chances-items-item:nth-of-type(5) {
+.home-chances-items-item:nth-child(5) {
     margin-right: 0;
 }
 
-.home-chances-items-item:nth-of-type(5)>.home-chances-p {
+.home-chances-items-item:nth-child(5)>.home-chances-p {
     width: 186px;
 }
 

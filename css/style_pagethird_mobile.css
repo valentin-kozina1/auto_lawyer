@@ -319,7 +319,6 @@ input[type=text]::placeholder {
 }
 
 .pagethird-lawn-item {
-    /*width: 300px;*/
     display: flex;
     flex-direction: column;
 }
@@ -341,7 +340,6 @@ input[type=text]::placeholder {
 }
 
 .pagethird-lawn-stages {
-    /*width: 300px;*/
     margin-top: 24px;
     background: var(--c-white);
     display: flex;
@@ -519,7 +517,6 @@ input[type=text]::placeholder {
 }
 
 .pagethird-lowerblock-title {
-   /* width: 300px;*/
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
@@ -527,7 +524,6 @@ input[type=text]::placeholder {
 }
 
 .pagethird-lowerblock-items {
-    /*width: 300px;*/
     display: flex;
     flex-direction: column;
     align-items: center;

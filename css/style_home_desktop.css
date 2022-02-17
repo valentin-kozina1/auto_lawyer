@@ -462,9 +462,9 @@
 
   /*----------*/
 
-.home-chances-container-items {
+/*.home-chances-container-items {
   overflow: hidden;
-}
+}*/
 
   .home-chances-container {
     margin-bottom: 40px;
@@ -495,13 +495,21 @@
     margin: 20px 0 0 0;
   }
 
-  .home-chances-items-item {
+.home-chances-items-item {
     display: flex;
     flex-direction: column;
     padding: 12px 12px 16px;
     border-radius: 10px;
     margin-right: 11px;
   }
+
+  .home-chances-items-item:nth-child(5) {
+    margin-right: 0;
+}
+
+.home-chances-items-item:nth-child(5)>.home-chances-p {
+    width: 186px;
+}
 
   .home-chances-items-item-active {
     display: flex;
