@@ -68,8 +68,9 @@
 .pagefourth-front-foto-image-back {
     position: absolute;
     z-index: 1;
-    top: 237px;
-    right: -405px;
+    width: 445px;
+    top: 300px;
+    right: -250px;
 }
 
 .pagefourth-front-foto-image-item {

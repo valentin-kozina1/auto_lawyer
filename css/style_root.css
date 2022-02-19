@@ -4,6 +4,7 @@
     --c-whiteBlock: #FFFEF6;
     --c-yellow: #FFED00;
     --c-red: #DD4B39;
+    --c-redLight: #FF4646;
     --c-grey: rgba(0, 0, 0, 0.35);
     --c-line: rgba(0, 0, 0, 0.15);
     --c-lightGrey: #E5E5E5;
@@ -16,6 +17,7 @@
     --c-footer: #597073;
     --c-footerColor: #E4F1F3;
     --c-inputColor: rgba(255, 255, 255, 0.7);
+    --c-title: rgba(0, 0, 0, 0.75);
     --c-button: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), #FFFFFF;
     --c-lineMadal: rgba(0, 0, 0, 0.06);
     --c-shadow: rgba(197, 185, 39, 0.2);

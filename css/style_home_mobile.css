@@ -258,9 +258,11 @@ input::placeholder {
 }
 
 .home-about-us-item-second-inputs {
-  margin-top: 15px;
+   margin-top: 16px;
   background: var(--c-white);
-
+  border: 1px solid var(--c-line);
+  box-sizing: border-box;
+  border-radius: 6px;
 }
 
 .home-about-us-item-second-inputs > textarea,
