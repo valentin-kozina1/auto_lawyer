@@ -363,8 +363,9 @@ textarea::placeholder, input::placeholder {
     font-weight: 800;
     font-size: 24px;
     line-height: 33px;
-    width: 470px;
+    width: 100%;
     margin: 32px 0 0 24px;
+    align-self: flex-start;
 }
 
 .pagesecond-consultation-inputs {
