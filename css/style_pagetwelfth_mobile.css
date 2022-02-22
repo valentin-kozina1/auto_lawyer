@@ -1,0 +1,30 @@
+.mobile {
+    display: block;
+}
+
+.desktop {
+    display: none;
+}
+
+.pagetwelfth-container {
+    padding: 45px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagetwelfth-container > img {
+    width: 300px;
+}
+
+button {
+    margin-top: 24px;
+    padding: 11px 30px 13px 30px;
+    background: var(--c-button);
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--c-yellow);
+}

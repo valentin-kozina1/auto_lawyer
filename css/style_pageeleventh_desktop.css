@@ -1,0 +1,410 @@
+@media only screen and (min-width: 992px) {
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
+.home-front-selects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .home-front-selects-items {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid var(--c-line);
+    width: 33%;
+    justify-content: space-around;
+  }
+
+  .home-front-selects-items:last-child {
+    border-right: none;
+  }
+
+  .home-front-selects-items-img {
+    width: 30px;
+    height: 25px;
+  }
+
+  .home-front-selects-items-item {
+    background-color: var(--c-lightGrey);
+    border: 1px solid var(--c-lightGrey);
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .home-front-selects-items-menu {
+    position: absolute;
+    top: 49px;
+    right: 0px;
+    background-color: var(--c-yellow);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+  }
+
+  .home-front-selects-items-menu-item {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px 0;
+  }
+/*------------------*/
+
+.representation > h1 {
+    margin: 60px 0 24px 0;
+    font-size: 38px;
+    line-height: 52px;
+}
+
+.representation-p1 {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.representation-p2 {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.representation-pdf {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.representation-pdf-item {
+    margin-right: 3.5%;
+}
+
+.representation-pdf-item-span {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/*------*/
+
+.adress-h1 {
+    margin-top: 40px;
+}
+
+.adress-h1 > h1 {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.adress-main {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.adress-item {
+}
+
+.adress-item > span {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.adress-networks {
+    flex-direction: row;
+}
+
+.adress-networks-item {
+    padding: 8px 12px;
+    margin-right: 20px;
+}
+
+.adress-networks-item:nth-child(1) {
+    background: var(--c-telegram);
+}
+
+.adress-networks-item:nth-child(2) {
+    background: var(--c-WhatsApp);
+    padding: 8px 12px;
+}
+
+
+.adress-networks-item:nth-child(3) {
+    background: var(--c-Viber);
+    padding: 8px 12px;
+}
+
+.adress-networks-item-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.adress-networks-item-text > span {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.adress-map-foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.adress-map {
+    width: 75.65%;
+    height: 420px;
+    background-image: url(../image/pageeleventh/map.png);
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.adress-foto-overflow {
+    width: 23.47%;
+    height: 420px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.adress-foto-container {
+    height: max-content;
+    width: 100%;
+    flex-direction: column;
+}
+
+.adress-foto {
+    width: 100%;
+    height: 177px;
+    margin-right: 0px;
+    margin-bottom: 12px;
+}
+
+.adress > h2 {
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.adress-text {
+    margin-bottom: 0px;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.adress-text > p {
+    margin: 8px 0 12px 0;
+}
+
+/*---------*/
+
+.lawyers > h1 {
+    margin: 60px 0 20px 0;
+    font-size: 38px;
+    line-height: 52px;
+}
+
+.lawyers-container {
+}
+
+.lawyers-container > img {
+    width: 80px;
+    height: 80px;
+}
+
+.lawyers-item {
+    margin-left: 24px;
+}
+
+.lawyers-item-name {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.lawyers-item-position {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.lawyers-item-education {
+    margin-top: 27px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.lawyers-item-education-item {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.lawyers-item-experience,
+.lawyers-item-experience-item {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.lawyers-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lawyers-button > button {
+    padding: 12px 24px 12px 23px;
+    margin-top: 40px;
+}
+
+.lawyers-button > button > span {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/*-------------*/
+
+.price > h1 {
+    font-size: 38px;
+    line-height: 52px;
+    margin: 60px 0 44px 0;
+}
+
+.price-text {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price-text > p {
+    font-size: 15px;
+    line-height: 22px;
+    width: 74.6%;
+}
+
+.price-text-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-text2 {
+    width: 74.6%;
+}
+
+.price-text2 > p {
+    font-size: 15px;
+    line-height: 22px; 
+    margin-top: 22px;
+}
+
+.price-text2 > p:nth-child(1) {
+    margin-top: 0;
+}
+
+.price-text > span {
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 20px;
+    width: 22.43%;
+}
+
+.price-text2 > span {
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.price-text-komment {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 0px;
+    padding: 0;
+    width: 22.43%;
+}
+
+.price-text-komment > p {
+}
+
+/*---------*/
+
+
+
+.pagesecond-consultation {
+    margin-top: 60px;
+}
+
+.pagesecond-consultation-container {
+    margin-bottom: 60px;
+}
+
+.pagesecond-consultation-container>h1 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    width: 100%;
+    margin: 32px 0 0 24px;
+    align-self: flex-start;
+}
+
+.pagesecond-consultation-inputs {
+    margin: 24px 0 0 24px;
+    align-items: flex-start;
+    width: 95.9%;
+}
+
+.pagesecond-consultation-inputs-main {
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-bottom: 1px solid var(--c-line);
+}
+
+.pagesecond-consultation-inputs-main::placeholder {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.pagesecond-consultation-inputs-items {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.pagesecond-consultation-inputs-items-item {
+    width: 31.9%;
+    height: 48px; 
+    margin-top: 24px;
+}
+
+.inputs-act {
+    border-bottom: 2px solid var(--c-yellow);
+}
+
+.inputs-act::placeholder {
+    color: #000000;
+}
+
+.pagesecond-consultation-person {
+    width: 530px;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 24px 0 0 24px;
+}
+
+.button-three {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    width: 150px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    align-self: center;
+}
+
+/*---------------*/
+
+}
