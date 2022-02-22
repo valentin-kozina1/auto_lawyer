@@ -140,6 +140,7 @@
     font-size: 13px;
     line-height: 20px;
     z-index: 2;
+    color: var(--c-black);
 }
 
 .pagefourth-front-foto-stages-items-text:nth-of-type(2) {
@@ -182,13 +183,14 @@
     box-sizing: border-box;
     border-radius: 16px;
     background-color: var(--c-white);
-    padding: 20px;
+    padding: 20px 0 20px 20px;
     z-index: 2;
 }
 
 .pagefourth-video-items-up {
     display: flex;
     flex-direction: column;
+    padding-right: 20px;
 }
 
 .pagefourth-video-items-up-title {
@@ -196,6 +198,7 @@
     font-size: 20px;
     line-height: 24px;
     margin: 20px 0 0 0;
+    padding-right: 20px;
 }
 
 .pagefourth-video-items-up-items {
@@ -211,12 +214,12 @@
 
 .pagefourth-video-items-up-item-img {
     width: 23px;
-    margin-left: 26px;
+    margin-left: 6px;
 }
 
 .pagefourth-video-items-up-item-img2 {
     width: 26px;
-    margin-left: 23px;
+    margin-left: 3px;
 }
 
 .pagefourth-video-items-up-item-text {
@@ -321,15 +324,13 @@
 }
 
 .pagefourth-alcohol-survey-title {
-    margin: 20px 0 0 0;
+    margin: 20px 0;
     font-weight: 800;
     font-size: 32px;
     line-height: 38px;
 }
 
 .pagefourth-alcohol-survey-title-two {
-    margin: 20px 0 0 0;
-    width: 100%;
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
@@ -464,6 +465,7 @@ input::placeholder {
 }
 
 .pagesecond-front-form-button>span {
+    font-weight: bold;
     font-size: 13px;
     line-height: 18px;
     text-align: center;

@@ -1,6 +1,7 @@
 :root {
     /* background */
     --c-white: #FFFFFF;
+    --c-black: #000000;
     --c-whiteBlock: #FFFEF6;
     --c-yellow: #FFED00;
     --c-red: #DD4B39;
@@ -18,6 +19,7 @@
     --c-footerColor: #E4F1F3;
     --c-inputColor: rgba(255, 255, 255, 0.7);
     --c-title: rgba(0, 0, 0, 0.75);
+    --c-buttonColor: rgba(0, 0, 0, 0.72);
     --c-button: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), #FFFFFF;
     --c-lineMadal: rgba(0, 0, 0, 0.06);
     --c-shadow: rgba(197, 185, 39, 0.2);
@@ -43,6 +45,11 @@ body {
     background-color: var(--c-lightGrey);
     margin: 0;
   } 
+
+button {
+    color: var(--font-main-color);
+}
+
 
 /*img {
     max-width: 100%;

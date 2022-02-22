@@ -152,6 +152,10 @@
 
 /*--------------*/
 
+.pagesecond-practice > .container {
+    padding-right: 0;
+}
+
 .pagesecond-practice-container {
     margin-top: 45px;
     display: flex;
@@ -159,6 +163,7 @@
 }
 
 .pagesecond-practice-title-container {
+    padding-right: 10px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -175,35 +180,51 @@
 
 .pagesecond-practice-items-container {
     overflow: auto;
+    margin-top: 25px;
 }
 
 .pagesecond-practice-items {
     display: flex;
     flex-direction: row;
-    margin-top: 25px;
     width: max-content;
 }
 
 .pagesecond-practice-item-container {
-    width: 130px;
-    height: 200px;
-    margin-right: 10px;
+    width: 132px;
+    height: 198px;
+    margin-right: 8px;
+    background-size: auto auto;
+    background-position: 0 0;
 }
 
-.pagesecond-practice-items-item {
-    width: 130px;
-    height: 200px;
-    
+.pagesecond-practice-item-container:nth-child(1) {
+    background: url(../image/pagesecond/practice1.png);
+}
+
+.pagesecond-practice-item-container:nth-child(2) {
+    background: url(../image/pagesecond/practice2.png);
+}
+
+.pagesecond-practice-item-container:nth-child(3) {
+    background: url(../image/pagesecond/practice3.png);
+}
+
+.pagesecond-practice-item-container:nth-child(4) {
+    background: url(../image/pagesecond/practice4.png);
+}
+
+.pagesecond-practice-item-container:nth-child(5) {
+    background: url(../image/pagesecond/practice5.png);
+}
+
+.pagesecond-practice-item-container:nth-child(6) {
+    background: url(../image/pagesecond/practice6.png);
 }
 
 .pagesecond-practice-item-container:nth-of-type(6) {
     margin-right: 0;   
 }
 
-.pagesecond-practice-items-item>img {
-    width: 130px;
-    height: 200px;
-}
 
 .pagesecond-practice-circles {
     width: 65px;
@@ -277,10 +298,10 @@
     margin-bottom: 10px;
 }
 
-input[type=text]::placeholder {
+.pagesecond-front-form-input > input::placeholder {
     font-size: 13px;
     line-height: 18px;
-    margin-left: 16px;
+    padding-left: 16px;
     color: var(--c-grey);
 }
 
@@ -346,6 +367,7 @@ input[type=text]::placeholder {
     flex-direction: column;
     border-radius: 12px;
     border: 1px solid var(--c-line);
+    overflow: hidden;
 }
 
 .pagethird-lawn-stages-item {
@@ -446,7 +468,8 @@ input[type=text]::placeholder {
     border-bottom: 1px solid var(--c-line);
 }
 
-.pagesecond-consultation-inputs-main::placeholder {
+.pagesecond-consultation-inputs-main::placeholder,
+.pagesecond-consultation-inputs-items-item::placeholder {
     font-weight: normal;
     font-size: 13px;
     line-height: 18px;

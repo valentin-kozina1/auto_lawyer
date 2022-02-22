@@ -164,12 +164,16 @@
 
 /*-----------*/
 
+.pagesecond-practice > .container {
+    padding-right: 10px;
+}
 
 .pagesecond-practice-container {
     margin-top: 60px;
 }
 
 .pagesecond-practice-title-container {
+    padding-right: 0;
     align-items: center;
 }
 
@@ -191,35 +195,22 @@
 }
 
 .pagesecond-practice-items-container {
-    overflow: unset;
+    margin-top: 40px;
 }
 
 .pagesecond-practice-items {
-    margin-top: 40px;
-    width: 100%;
-    margin-bottom: 60px;
 }
 
 .pagesecond-practice-item-container {
-    width: 14.5%;
-    height: 200px;
-     margin-right: 2.5%;
-}
-
-.pagesecond-practice-items-item {
-    width: 100%;
+    width: 170px;
     height: 255px;
-}
-
-.pagesecond-practice-items-item>img {
-    width: 100%;
-    height: 255px;
+    margin-right: 25px;
 }
 
 /*--------------------*/
 
 .pagesecond-form {
-    margin-top: 45px;
+    margin-top: 60px;
     background-color: var(--c-green);
 }
 
@@ -273,7 +264,7 @@
     margin-bottom: 60px;
 }
 
-textarea::placeholder, input::placeholder {
+.pagesecond-front-form-input::placeholder {
     font-family: var(--font-main);
     font-size: 15px;
     line-height: 20px;
@@ -381,7 +372,8 @@ textarea::placeholder, input::placeholder {
     border-bottom: 1px solid var(--c-line);
 }
 
-.pagesecond-consultation-inputs-main::placeholder {
+.pagesecond-consultation-inputs-main::placeholder,
+.pagesecond-consultation-inputs-items-item::placeholder {
     font-size: 15px;
     line-height: 20px;
 }
